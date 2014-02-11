@@ -1,0 +1,24 @@
+{
+	"codedays": {
+		"denver": {
+			"name": "Denver",
+			"date": "February 15th-16th, 2014"
+		},
+		"austin": {
+			"name": "Austin",
+			"date": "February 15th-16th, 2014"
+		},
+		"iowa": {
+			"name": "Iowa",
+			"date": "February 15th-16th, 2014"
+		},
+		"dc": {
+			"name": "DC",
+			"date": "February 15th-16th, 2014"
+		},
+		"kansas": {
+			"name": "Kansas City",
+			"date": "February 15th-16th, 2014"
+		}
+	}
+}

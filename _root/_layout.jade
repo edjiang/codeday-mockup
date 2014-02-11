@@ -1,6 +1,14 @@
-doctype
+doctype 5
 html
   head
-    link(rel="stylesheet", href="/main.css")
+    title CodeDay
+    link(href="main.css", type="text/css", rel="stylesheet")
   body
+    header
+      h1 CodeDay
+      nav
+        a(href="/") Home
+        a(href="/about") About
     != yield
+    footer
+      | Copyright © 2011-2014 StudentRND. All rights reserved.
