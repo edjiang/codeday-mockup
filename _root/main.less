@@ -1,6 +1,6 @@
 @import "//fonts.googleapis.com/css?family=Raleway:300,500";
 @slideBG: url('slideBG.jpg');
-@bodyBG: #95a5a6;
+@bodyBG: url('bg.png');
 @themeColor: #24b248;
 
 html {
@@ -12,10 +12,12 @@ body {
 	width:100%;
 	font-family: Raleway, sans-serif;
 	background: @bodyBG;
+	background-attachment: fixed;
 	h1, h2, h3 { font-weight:500; }
 }
 
 header {
+	z-index:999;
 	border-top: 3px solid @themeColor;
 	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.7);
 	position: absolute;
@@ -44,7 +46,7 @@ header {
 
 .top {
 	.hero {
-		box-shadow: inset 0px 0px 3px 1px #000;
+		box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,.7);
 		width:100%;
 		padding-top:95px;
 		background: @slideBG fixed;
@@ -54,7 +56,6 @@ header {
 		top: -8px;
 		left: -8px;
 		padding-left: 20px;
-		z-index: -1;
 		min-height: 380px;
 		color: #FFF;
 		font-size: 1.3em;
