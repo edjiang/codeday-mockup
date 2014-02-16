@@ -16,7 +16,7 @@
         a(href="/sponsor") Sponsor a CodeDay
 .codedays
   for codeday, slug in codedays
-    a(href="#", style="background: url('/cities/#{codeday.img}');")
+    a(href="#", style="background: url('cities/#{codeday.img}');")
       span.city #{codeday.name}
 .faq
   h2 Frequently Asked Questions (FAQ)
@@ -28,4 +28,4 @@
   h2 Global Sponsors
   for sponsor, slug in sponsors
     a.sponsor(class="#{slug}" href="#{ sponsor.link }")
-      img(src="/sponsors/#{sponsor.img}")
+      img(src="sponsors/#{sponsor.img}")
