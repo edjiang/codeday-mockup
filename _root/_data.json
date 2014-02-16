@@ -3,27 +3,27 @@
 		"denver": {
 			"name": "Denver",
 			"date": "February 15th-16th, 2014",
-			"color": "rgba(185,34,18,0.9)"
+			"color": "#1abc9c"
 		},
 		"austin": {
 			"name": "Austin",
 			"date": "February 15th-16th, 2014",
-			"color": "#028482"
+			"color": "#2ecc71"
 		},
 		"iowa": {
 			"name": "Iowa",
 			"date": "February 15th-16th, 2014",
-			"color": "#7aba7a"
+			"color": "#3498db"
 		},
 		"dc": {
 			"name": "DC",
 			"date": "February 15th-16th, 2014",
-			"color": "rgba(185,34,18,0.9)"
+			"color": "#9b59b6"
 		},
 		"kansas": {
 			"name": "Kansas City",
 			"date": "February 15th-16th, 2014",
-			"color": "#028482"
+			"color": "#e74c3c"
 		}
 	}
 }
