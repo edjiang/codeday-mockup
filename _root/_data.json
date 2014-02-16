@@ -2,28 +2,24 @@
 	"codedays": {
 		"denver": {
 			"name": "Denver",
-			"date": "February 15th-16th, 2014",
-			"color": "#1abc9c"
+			"img": "denver.jpg"
 		},
 		"austin": {
 			"name": "Austin",
-			"date": "February 15th-16th, 2014",
-			"color": "#2ecc71"
+			"img": "austin.jpg"
 		},
 		"iowa": {
 			"name": "Iowa",
-			"date": "February 15th-16th, 2014",
-			"color": "#3498db"
+			"img": "denver.jpg"
+			
 		},
 		"dc": {
 			"name": "DC",
-			"date": "February 15th-16th, 2014",
-			"color": "#9b59b6"
+			"img": "austin.jpg"
 		},
 		"kansas": {
 			"name": "Kansas City",
-			"date": "February 15th-16th, 2014",
-			"color": "#e74c3c"
+			"img": "denver.jpg"
 		}
 	}
 }
