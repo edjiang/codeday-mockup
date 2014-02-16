@@ -1,6 +1,6 @@
 @import "//fonts.googleapis.com/css?family=Raleway:300,500";
 @slideBG: url('slideBG.jpg');
-@bodyBG: url('bg.png');
+@bodyBG: url('/bg.png');
 @themeColor: rgba(208, 38, 20, 0.9);
 
 html {
@@ -12,6 +12,7 @@ body {
 	width:100%;
 	font-family: Raleway, sans-serif;
 	background: @bodyBG;
+	//background-size:cover;
 	background-attachment: fixed;
 	h1, h2, h3 { font-weight:500; }
 }
@@ -103,14 +104,18 @@ header {
 		text-shadow: 1px 1px 10px #000;
 		text-decoration: none;
 		background-size: cover !important;
-		font-weight: 500;
+		//font-weight: 500;
 		min-width: 200px;
 		span {
 			display: block;
 			margin: 10px auto;
 			text-align: center;
 			&.city {
-				font-size:3em;
+				font-size: 3em;
+				background: rgba(0,0,0,0.7);
+				padding: 5px;
+				border-radius: 3px;
+				box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,.5);
 			}
 		}
 	}
@@ -125,4 +130,35 @@ footer {
 .items {
 	margin: 0 auto;
 	text-align: center;
+}
+
+.faq {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius:5px;
+	//border-bottom: 2px solid rgba(0,0,0,.2);
+	text-align: center;
+	.question {
+		width: 350px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 10px 10px;
+		padding: 10px;
+		border-bottom: 3px solid rgba(0,0,0,.1);
+		border-radius: 5px;
+		background: rgba(235,235,235,0.7);
+		min-height: 250px;
+	}
+}
+
+.sponsors {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	img {
+		width: 300px;
+		vertical-align: middle;
+		margin: 10px 10px;
+	}
 }

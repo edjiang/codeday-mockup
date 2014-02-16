@@ -1,25 +1,102 @@
 {
+	"global": {
+		"faq": {
+			"a": {
+				"question": "I don't know how to program! Can I still go?",
+				"answer": "Of course! Part of the fun is figuring things things as you go along. We'll also have some great workshops that you can attend. Or just hang out and have fun!"
+			},
+			"b": {
+				"question": "Do I need a group to attend?",
+				"answer": "No. In fact, a lot of people come to the event not knowing any other participants. We have a process for forming teams at the beginning of the event."
+			},
+			"c": {
+				"question": "Are there any age requirements?",
+				"answer": "No, the event is open to all currently enrolled students."
+			},
+			"d": {
+				"question": "My child is very young. Can he/she still go? Should I stay?",
+				"answer": "The event is open to all students, however the typical attendee is in high school or college. Some middle school students have attended CodeDay before. If your child is mature and can handle themselves in an independent setting, they will be fine. We encourage parents not to stay for the entire event, but do allow it."
+			},
+			"e": {
+				"question": "I'm older. Can I still go?",
+				"answer": "Any enrolled student is allowed to attend, but we find participants older than 25 tend to feel out of place."
+			},
+			"f": {
+				"question": "I'm a rockstar programmer, is CodeDay right for me?",
+				"answer": "A large percent of our participants are very experienced developers. There are many other events for very good programmers; CodeDay is unlike most of them. You won't be focused on showing off, impressing recruiters, or winning thousands of dollars in prizes. Participants at CodeDay learn new technologies, get to know a hundred new people, and have fun exploring their love for technology.If this sounds exciting to you, you'll enjoy the event."
+			},
+			"g": {
+				"question": "Will there be food?",
+				"answer": "Yep! We'll provide lunch and dinner on Saturday, a midnight snack, and breakfast on Sunday. The cost of food is included in your ticket."
+			},
+			"h": {
+				"question": "What should I bring?",
+				"answer": "Bring anything that you think will make yourself productive. You'll need a laptop. Anything beyond that is up to you!"
+			},
+			"i": {
+				"question": "How big are the teams?",
+				"answer": "We suggest 3-6 people per team. 8 is the absolute max. You can be a team of 1."
+			},
+			"j": {
+				"question": "Can I be on multiple teams?",
+				"answer": "Yes."
+			},
+			"k": {
+				"question": "Is it possible to make an app or game in such a short time?",
+				"answer": "Yes! We're constantly amazed by the results of CodeDay events! Check out S.S. Halfling, and Running Blind, both games led by students at Redmond HS in Washington."
+			}
+		},
+		"sponsor": {
+			"splunk": {
+				"link": "http://splunk.com",
+				"img": "splunk.png"
+			},
+			"iv": {
+				"link": "http://intellectualventures.com",
+				"img": "iv.png"
+			}	
+		}
+	},
 	"codedays": {
 		"denver": {
 			"name": "Denver",
-			"img": "denver.jpg"
+			"img": "denver.jpg",
+			"sponsor": [],
+			"organizer": [],
+			"judges": [],
+			"registerLink": ""
 		},
 		"austin": {
 			"name": "Austin",
-			"img": "austin.jpg"
+			"img": "austin.jpg",
+			"sponsor": [],
+			"organizer": [],
+			"judges": [],
+			"registerLink": ""
 		},
 		"iowa": {
 			"name": "Iowa",
-			"img": "denver.jpg"
-			
+			"img": "iowa.jpg",
+			"sponsor": [],
+			"organizer": [],
+			"judges": [],
+			"registerLink": ""
 		},
 		"dc": {
 			"name": "DC",
-			"img": "austin.jpg"
+			"img": "dc.jpg",
+			"sponsor": [],
+			"organizer": [],
+			"judges": [],
+			"registerLink": ""
 		},
 		"kansas": {
 			"name": "Kansas City",
-			"img": "denver.jpg"
+			"img": "kansas.jpg",
+			"sponsor": [],
+			"organizer": [],
+			"judges": [],
+			"registerLink": ""
 		}
 	}
 }

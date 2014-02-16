@@ -1,4 +1,6 @@
 - var codedays = public._data.codedays
+- var faq = public._data.global.faq
+- var sponsors = public._data.global.sponsor
 .top
   .hero
     .items
@@ -15,6 +17,15 @@
 .codedays
   for codeday, slug in codedays
     a(href="#", style="background: url('/cities/#{codeday.img}');")
-      span.small CodeDay
       span.city #{codeday.name}
-
+.faq
+  h2 Frequently Asked Questions (FAQ)
+  for question, slug in faq
+    .question(class="#{slug}")
+      h3 #{ question.question }
+      p #{ question.answer }
+.sponsors
+  h2 Global Sponsors
+  for sponsor, slug in sponsors
+    a.sponsor(class="#{slug}" href="#{ sponsor.link }")
+      img(src="/sponsors/#{sponsor.img}")
