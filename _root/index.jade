@@ -14,7 +14,7 @@
         a(href="/sponsor") Sponsor a CodeDay
 .codedays
   for codeday, slug in codedays
-    a(href="http://#{slug}.codeday.org")
+    a(href="http://#{slug}.codeday.org", style="border-top: 5px solid #{codeday.color};")
       span.small CodeDay
       span.city #{codeday.name}
       span.date #{codeday.date}
