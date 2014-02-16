@@ -1,19 +1,20 @@
 - var codedays = public._data.codedays
 .top
   .hero
-    .text
-      h1 Build something amazing at CodeDay.
-      ul
-        li Hang out with friends
-        li Meet new people interested in technology
-        li Create something cool in <b>24 hours</b>
-        li Become a better programmer and learn new things
-    .buttons
-      a(href="/organize") Organize a CodeDay
-      a(href="/sponsor") Sponsor a CodeDay
+    .items
+      .text
+        h1 Build something amazing at CodeDay.
+        ul
+          li Hang out with friends
+          li Meet new people interested in technology
+          li Create something cool in <b>24 hours</b>
+          li Become a better programmer and learn new things
+      .buttons
+        a(href="/organize") Organize a CodeDay
+        a(href="/sponsor") Sponsor a CodeDay
 .codedays
   for codeday, slug in codedays
-    a(href="#{slug}.codeday.org")
+    a(href="http://#{slug}.codeday.org")
       span.small CodeDay
       span.city #{codeday.name}
       span.date #{codeday.date}
