@@ -1,6 +1,7 @@
 - var regions = public._data.regions
 - var faq = public._data.global.faq
 - var sponsors = public._data.global.sponsor
+- var pastsponsors = public._data.global.pastsponsors
 .top
   .hero
     .items
@@ -8,32 +9,43 @@
         h1 CodeDay Spring 2014
           .subheading May 24th, noon-noon
         h2 Build something awesome in 24 hours!
-        .ideas
-          p Pitch ideas and form teams!
-          p Make friends!
-          p Become a better programmer!
 .codedays
-  h1 Join 2,000+ students at CodeDay in a city near you! 
-  h2 Select your region: 
+  h1.text Join 2,000+ students at CodeDay in a city near you! 
+  .regions
+    h2 What timezone are you in? 
+    for region in regions
+      a.city(href="javascript:slideTo('.#{region.name}')", style="background: url('regions/#{region.img}');")
+        .blur.blackout 
+          .span.citylabel #{region.name}
   for region in regions
-    a(href="#", style="background: url('regions/#{region.img}');")
-      .blur.blackout 
-        .span.citylabel #{region.name}
-.codedays
-  h1 Join 2,000+ students at CodeDay in a city near you! 
-  h2 Select your city: 
-  for codeday in regions.midwest.cities
-    a(href="#", style="background: url('cities/#{codeday.img}');")
-      .blur.blackout
-        span.citylabel #{codeday.name}
+    .cities.hidden(class="#{region.name}")
+      h2 Select your city: 
+        a(href="javascript:slideTo('.regions')") (back)
+      for codeday in region.cities
+        a.city(href="#", style="background: url('cities/#{codeday.img}');")
+          .blur.blackout
+            span.citylabel #{codeday.name}
 .faq
-  h2 Frequently Asked Questions (FAQ)
+  h1 Frequently Asked Questions (FAQ)
   for question, slug in faq
     .question(class="#{slug}")
       h3 #{ question.question }
       p #{ question.answer }
 .sponsors
-  h2 Global Sponsors
+  h1 Global Sponsors
   for sponsor, slug in sponsors
     a.sponsor(class="#{slug}" href="#{ sponsor.link }")
-      img(src="sponsors/#{sponsor.img}")
+      img.global(src="sponsors/#{sponsor.img}")
+  h3 Want to sponsor? 
+    a(href="mailto:sponsorships@codeday.org") Contact Us!
+hr
+.sponsors
+  h1 Past Sponsors
+  for sponsor, slug in pastsponsors
+    a.sponsor(class="#{slug}")
+      img.past(src="#{sponsor.img}")
+hr
+.sponsors
+  h1 Organized in Seattle by
+    a.sponsor(class="studentrnd" href="https://studentrnd.org/")
+      img.global(src="https://studentrnd.org/assets/img/logo.png")
