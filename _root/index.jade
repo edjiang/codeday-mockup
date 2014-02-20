@@ -1,23 +1,31 @@
-- var codedays = public._data.codedays
+- var regions = public._data.regions
 - var faq = public._data.global.faq
 - var sponsors = public._data.global.sponsor
 .top
   .hero
     .items
       .text
-        h1 Build something amazing at CodeDay.
-        ul
-          li Hang out with friends
-          li Meet new people interested in technology
-          li Create something cool in <b>24 hours</b>
-          li Become a better programmer and learn new things
-      .buttons
-        a(href="/organize") Organize a CodeDay
-        a(href="/sponsor") Sponsor a CodeDay
+        h1 CodeDay Spring 2014
+          .subheading May 24th, noon-noon
+        h2 Build something awesome in 24 hours!
+        .ideas
+          p Pitch ideas and form teams!
+          p Make friends!
+          p Become a better programmer!
 .codedays
-  for codeday, slug in codedays
+  h1 Join 2,000+ students at CodeDay in a city near you! 
+  h2 Select your region: 
+  for region in regions
+    a(href="#", style="background: url('regions/#{region.img}');")
+      .blur.blackout 
+        .span.citylabel #{region.name}
+.codedays
+  h1 Join 2,000+ students at CodeDay in a city near you! 
+  h2 Select your city: 
+  for codeday in regions.midwest.cities
     a(href="#", style="background: url('cities/#{codeday.img}');")
-      span.city #{codeday.name}
+      .blur.blackout
+        span.citylabel #{codeday.name}
 .faq
   h2 Frequently Asked Questions (FAQ)
   for question, slug in faq

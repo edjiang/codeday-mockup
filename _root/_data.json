@@ -57,46 +57,78 @@
 			}	
 		}
 	},
-	"codedays": {
-		"denver": {
-			"name": "Denver",
-			"img": "denver.jpg",
-			"sponsor": [],
-			"organizer": [],
-			"judges": [],
-			"registerLink": ""
+	"regions": {
+		"west": { 
+			"name": "West",
+			"img": "west.jpg",
+			"cities": {
+				"denver": {
+					"name": "Denver",
+					"img": "denver.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				}
+			}
 		},
-		"austin": {
-			"name": "Austin",
-			"img": "austin.jpg",
-			"sponsor": [],
-			"organizer": [],
-			"judges": [],
-			"registerLink": ""
+		"midwest": {
+			"name": "Midwest",
+			"img": "central.jpg",
+			"cities": {
+				"iowa": {
+					"name": "Iowa",
+					"img": "iowa.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				},
+				"kansas": {
+					"name": "Kansas City",
+					"img": "kansas.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				}
+			}
 		},
-		"iowa": {
-			"name": "Iowa",
-			"img": "iowa.jpg",
-			"sponsor": [],
-			"organizer": [],
-			"judges": [],
-			"registerLink": ""
+		"south": {
+			"name": "South",
+			"img": "south.jpg",
+			"cities": {
+				"austin": {
+					"name": "Austin",
+					"img": "austin.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				},
+				"dc": {
+					"name": "DC",
+					"img": "dc.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				}
+			}
 		},
-		"dc": {
-			"name": "DC",
-			"img": "dc.jpg",
-			"sponsor": [],
-			"organizer": [],
-			"judges": [],
-			"registerLink": ""
-		},
-		"kansas": {
-			"name": "Kansas City",
-			"img": "kansas.jpg",
-			"sponsor": [],
-			"organizer": [],
-			"judges": [],
-			"registerLink": ""
+		"East": {
+			"name": "East",
+			"img": "east.jpg",
+			"cities": {
+				"dc": {
+					"name": "DC",
+					"img": "dc.jpg",
+					"sponsor": [],
+					"organizer": [],
+					"judges": [],
+					"registerLink": ""
+				}
+			}
 		}
 	}
 }
