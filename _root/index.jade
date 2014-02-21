@@ -7,14 +7,14 @@
     .items
       .text
         h1 CodeDay Spring 2014
-          .subheading May 24th, noon-noon
+          .subheading May 24-25th, noon-noon
         h2 Build something awesome in 24 hours!
 .codedays
   h1.text Join 2,000+ students at CodeDay in a city near you! 
   .regions
     h2 What timezone are you in? 
     for region in regions
-      a.city(href="javascript:slideTo('.#{region.name}')", style="background: url('regions/#{region.img}');")
+      a.city(href="javascript:slideTo('.#{region.name}')", style="background: url('img/regions/#{region.img}');")
         .blur.blackout 
           .span.citylabel #{region.name}
   for region in regions
@@ -22,7 +22,7 @@
       h2 Select your city: 
         a(href="javascript:slideTo('.regions')") (back)
       for codeday in region.cities
-        a.city(href="#", style="background: url('cities/#{codeday.img}');")
+        a.city(href="#", style="background: url('img/cities/#{codeday.img}');")
           .blur.blackout
             span.citylabel #{codeday.name}
 .faq
@@ -31,19 +31,20 @@
     .question(class="#{slug}")
       h3 #{ question.question }
       p #{ question.answer }
+hr
 .sponsors
   h1 Global Sponsors
   for sponsor, slug in sponsors
     a.sponsor(class="#{slug}" href="#{ sponsor.link }")
-      img.global(src="sponsors/#{sponsor.img}")
+      img.global(src="img/sponsors/#{sponsor.img}")
   h3 Want to sponsor? 
     a(href="mailto:sponsorships@codeday.org") Contact Us!
 hr
 .sponsors
   h1 Past Sponsors
-  for sponsor, slug in pastsponsors
+  for sponsor in pastsponsors
     a.sponsor(class="#{slug}")
-      img.past(src="#{sponsor.img}")
+      img.past(src="img/sponsors/past/#{sponsor}")
 hr
 .sponsors
   h1 Organized in Seattle by

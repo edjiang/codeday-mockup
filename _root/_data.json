@@ -40,52 +40,43 @@
 				"img": "aws.png"
 			}	
 		},
-		"pastsponsors": {
-			"ebay": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/BZH6vft.png"
-			},
-			"1": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/dqtphpb.png"
-			},
-			"2": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/Uk5ZY7v.gif"
-			},
-			"3": {
-				"link": "http://splunk.com",
-				"img": "http://blog.tunecore.com/wp-content/uploads/2013/07/Gracenote_Logo.jpg"
-			},
-			"4": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/W1in9fI.png"
-			},
-			"5": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/cgg5zdNl.jpg"
-			},
-			"6": {
-				"link": "http://splunk.com",
-				"img": "http://i.imgur.com/T0UqDnK.png"
-			},
-			"7": {
-				"link": "http://splunk.com",
-				"img": "http://www.bookinglive.com/assets/NewFolder-2/sendgrid.jpeg"
-			},
-			"8": {
-				"link": "http://splunk.com",
-				"img": "http://feb.2014.ny.codeday.org/assets/uploads/911cddfe13d24b0f5aa0ac643f02b1b9.jpg"
-			},
-			"9": {
-				"link": "http://splunk.com",
-				"img": "https://www.twilio.com/packages/company/img/logos_downloadable_logobrand.png"
-			},
-			"10": {
-				"link": "http://splunk.com",
-				"img": "http://ebmedia.eventbrite.com/s3-s3/eventlogos/28578437/4809359925-1.png"
-			}
-		}
+		"pastsponsors": [
+			"a16z.png",
+			"googlefiber.jpg",
+			"sap.gif",
+			"aspenware.jpg",
+			"gracenote.jpg",
+			"sendgrid.jpeg",
+			"chef.png",
+			"hp.jpg",
+			"sprintaccelerator.png",
+			"codingforinterviews.png",
+			"hubaustin.jpeg",
+			"stagebloc.png",
+			"contextio.jpg",
+			"kauffman.jpg",
+			"techcolumbus.jpg",
+			"devbootcamp.png",
+			"lookout.png",
+			"teradata.png",
+			"dice.jpg",
+			"moz.png",
+			"thiel.png",
+			"ebay.png",
+			"newrelic.png",
+			"twilio.png",
+			"generalassembly.jpg",
+			"onsip.jpg",
+			"uw.gif",
+			"geonetric.png",
+			"outerwall.png",
+			"wix.png",
+			"github.png",
+			"puppetlabs.png",
+			"yahoo.jpg",
+			"google.jpg",
+			"rackspace.jpg"
+		]
 	},
 	"regions": {
 		"pacific": { 
@@ -263,7 +254,7 @@
 					"registerLink": ""
 				},
 				"dc": {
-					"name": "Washington DC",
+					"name": "D.C.",
 					"img": "dc.jpg",
 					"sponsor": [],
 					"organizer": [],
