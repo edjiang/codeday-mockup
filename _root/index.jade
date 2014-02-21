@@ -35,8 +35,8 @@
   h1 Frequently Asked Questions (FAQ)
   for question in faq
     .question
-      h3 #{ question.question }
-      p #{ question.answer }
+      h3= question.question
+      p!= question.answer
 hr
 .sponsors
   h1 Global Sponsors
