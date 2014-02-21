@@ -1,31 +1,31 @@
 {
 	"global": {
-		"faq": {
-			"a": {
+		"faq": [ 
+			{
 				"question": "I don't know how to code! Can I go?",
 				"answer": "Of course! Part of the fun is figuring things things as you go along. We'll also have some great workshops that you can attend. Or just hang out and have fun!"
 			},
-			"b": {
+			{
 				"question": "How does CodeDay work?",
 				"answer": "It's a 24-hour event where students passionate about technology get together and build cool things together! You pitch ideas, form teams, and build a cool app or game over 24 hours!"
 			},
-			"c": {
+			{
 				"question": "Are there any age requirements?",
 				"answer": "No, the event is open to all currently enrolled students. Usually, most of the attendees are in high school and college. Middle school students that can behave independently are allowed. "
 			},
-			"h": {
+			{
 				"question": "What should I bring?",
 				"answer": "Bring a laptop to work on! If you can, please bring a power strip. If you're planning on sleeping, bring a sleeping bag, pillow, toothbrush, and anything that may make you comfortable. "
 			},
-			"i": {
+			{
 				"question": "Will there be food?",
 				"answer": "Yep! We'll have food, including vegetarian options, at CodeDay! Check out the schedule for more details. "
 			},
-			"k": {
+			{
 				"question": "Is it possible to make an app or game in such a short time?",
 				"answer": "Yes! We're constantly amazed by the results after CodeDay! "
 			}
-		},
+		],
 		"sponsor": {
 			"splunk": {
 				"link": "http://splunk.com",
